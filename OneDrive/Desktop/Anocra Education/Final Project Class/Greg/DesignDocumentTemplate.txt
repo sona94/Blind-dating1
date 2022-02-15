@@ -1,0 +1,54 @@
+Project Name
+mitchsanderart.com
+
+Overview
+This website will give my friend a convenient way to promote and sell his art.  Users will be able to
+browse through and purchase art/jewelry created by the artist.
+
+Features
+Users will be able to browse through art pieces created by artist
+Users will be able to purchase art pieces created by artis
+Users will be able to contact artist through email
+Users will be able to write reviews of their experience
+Users will be able to read news articles about the artist
+
+Admin Role
+Admin will be able to add/remove art pieces that are for sale
+Admin will be able to add/remove press articles
+Admin will be able to remove reviews made by users
+
+Site Layout
+Home(Shows artist as well as user reviews)
+
+Art - Painitings(shows available paintings created by aritst as well as their price)
+    - Jewelry(shows available jewelry created by artist as well as their price)
+
+Press - Shows news articles that feature the artist
+
+Contact - Gives users ability to email artist
+
+Database Design
+User:
+User Id
+Name
+Address
+Email
+
+User Reviews:
+Review Id
+Description
+User Id
+
+Purchase:
+Purchase Id
+User Id
+Art Id
+
+Art:
+Art Id
+Description
+Price
+
+Art Category:
+Art Id
+Art Category Id (painting/jewelry)
